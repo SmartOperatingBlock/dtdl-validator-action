@@ -28,7 +28,7 @@ runs:
         ref: '209128'
     - name: Validate the files
       shell: bash
-      run: dotnet run --project dtdl-microsoft-validator/DTDLValidator-Sample/DTDLValidator/ -d repo/${{ inputs.folder }} > validation-result.txt
+      run: dotnet run --property WarningLevel=0 --project dtdl-microsoft-validator/DTDLValidator-Sample/DTDLValidator/ -d repo/${{ inputs.folder }} > validation-result.txt
     - name: Echo the result of the validation
       shell: bash
       run: cat validation-result.txt
