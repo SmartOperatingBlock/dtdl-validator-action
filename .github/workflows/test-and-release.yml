@@ -1,0 +1,28 @@
+name: Test and Release
+
+on:
+  push:
+    paths-ignore:
+        - 'CHANGELOG.md'
+        - 'LICENSE'
+        - 'README.md'
+        - 'renovate.json'
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    strategy:
+      matrix:
+        os: [windows, macos, ubuntu]
+    runs-on: ${{ matrix.os }}-latest
+    steps:
+      - name: Checkout the action
+        uses: actions/checkout@v3
+        with:
+          path: action
+          submodules: recursive
+          fetch-depth: 0
+      - uses: ./action
+        with:
+          folder: example
