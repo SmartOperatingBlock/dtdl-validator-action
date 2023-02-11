@@ -12,6 +12,11 @@ A simple GitHub Action that validate Microsoft DTDL files based on the [Microsof
     # Default: '.'
     folder: ''
 
+    # If it is set to true then it will perform a recursive search starting from the
+    # provided folder
+    # Default: false
+    recursive: true/false
+
 ```
 
 # License
