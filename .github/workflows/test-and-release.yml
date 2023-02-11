@@ -26,6 +26,7 @@ jobs:
       - uses: ./action
         with:
           folder: example
+          recursive: true
 
   release:
     concurrency:
