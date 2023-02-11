@@ -7,6 +7,11 @@ inputs:
     default: '.'
     required: false
   
+  recursive:
+    description: 'If it is set to true then it will perform a recursive search starting from the provided folder'
+    default: false
+    required: false
+  
 runs:
   using: composite
   steps:
@@ -25,10 +30,10 @@ runs:
       with:
         path: dtdl-microsoft-validator
         repository: Azure-Samples/DTDL-Validator
-        ref: '209128'
+        ref: 'master' # Need to checkout the master branch because the last tag (209128) has a bug in recursive mode and they haven't created a new one when solved.
     - name: Validate the files
       shell: bash
-      run: dotnet run --property WarningLevel=0 --project dtdl-microsoft-validator/DTDLValidator-Sample/DTDLValidator/ -d repo/${{ inputs.folder }} > validation-result.txt
+      run: dotnet run --property WarningLevel=0 --project dtdl-microsoft-validator/DTDLValidator-Sample/DTDLValidator/ ${{ inputs.recursive == 'true' && '--recursive' || ' ' }} -d repo/${{ inputs.folder }} > validation-result.txt
     - name: Echo the result of the validation
       shell: bash
       run: cat validation-result.txt
