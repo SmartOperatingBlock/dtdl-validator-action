@@ -30,7 +30,9 @@ runs:
       with:
         path: dtdl-microsoft-validator
         repository: Azure-Samples/DTDL-Validator
-        ref: 'master' # Need to checkout the master branch because the last tag (209128) has a bug in recursive mode and they haven't created a new one when solved.
+        # Need to checkout the SHA of the commit because the last tag (209128) has a bug in recursive mode and they haven't created a new one when solved.
+        # This solution is more stable with respect to referring to the master branch (can be updated and no tests are performed automatically against it).
+        ref: 'fc2875d9b64570ca5b16d49123f8c76c9381b14a'
     - name: Validate the files
       shell: bash
       run: dotnet run --property WarningLevel=0 --project dtdl-microsoft-validator/DTDLValidator-Sample/DTDLValidator/ ${{ inputs.recursive == 'true' && '--recursive' || ' ' }} -d repo/${{ inputs.folder }} > validation-result.txt
