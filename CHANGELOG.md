@@ -1,3 +1,21 @@
+## [1.1.0](https://github.com/SmartOperatingBlock/dtdl-validator-action/compare/1.0.0...1.1.0) (2023-02-11)
+
+
+### Features
+
+* add recursive validation mode ([fbf0fb7](https://github.com/SmartOperatingBlock/dtdl-validator-action/commit/fbf0fb72b94d14f100a10144831791cd3a3286af))
+
+
+### Build and continuous integration
+
+* test also recursive mode ([999ad77](https://github.com/SmartOperatingBlock/dtdl-validator-action/commit/999ad7716fdb2d56ce08dd5e9a73a9802a31d816))
+
+
+### General maintenance
+
+* update README ([68fae52](https://github.com/SmartOperatingBlock/dtdl-validator-action/commit/68fae52d25d2986fb8fdb16a556d64bcd6bfab1d))
+* update README with recursive mode ([810d568](https://github.com/SmartOperatingBlock/dtdl-validator-action/commit/810d568e74f3210ddac107a3038d3b9c929f5228))
+
 ## 1.0.0 (2023-02-10)
 
 
