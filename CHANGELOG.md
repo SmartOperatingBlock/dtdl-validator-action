@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/SmartOperatingBlock/dtdl-validator-action/compare/1.1.0...1.1.1) (2023-02-11)
+
+
+### Bug Fixes
+
+* correct validator version improving stability ([1882f4d](https://github.com/SmartOperatingBlock/dtdl-validator-action/commit/1882f4d50e3316ad0514073e0f251ca61e869e6d))
+
 ## [1.1.0](https://github.com/SmartOperatingBlock/dtdl-validator-action/compare/1.0.0...1.1.0) (2023-02-11)
 
 
