@@ -18,7 +18,7 @@ jobs:
     runs-on: ${{ matrix.os }}-latest
     steps:
       - name: Checkout the action
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           path: action
           submodules: recursive
@@ -44,7 +44,7 @@ jobs:
       )
     steps:
       - name: Checkout the repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           token: ${{ secrets.DEPLOYMENT_TOKEN }}
           submodules: recursive
