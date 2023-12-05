@@ -1,3 +1,43 @@
+## [1.1.3](https://github.com/SmartOperatingBlock/dtdl-validator-action/compare/1.1.2...1.1.3) (2023-12-05)
+
+
+### Dependency updates
+
+* **core-deps:** update actions/setup-dotnet action to v4 ([8754730](https://github.com/SmartOperatingBlock/dtdl-validator-action/commit/8754730c3a89ccda9ca0c580336d9b259ac3f5f7))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.54 ([e163fdb](https://github.com/SmartOperatingBlock/dtdl-validator-action/commit/e163fdb4e659705e55b81ef1e438f91abf7f4fe3))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.55 ([a0424e6](https://github.com/SmartOperatingBlock/dtdl-validator-action/commit/a0424e60d975421b2126629757fa831d935a0a86))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.56 ([2c4e697](https://github.com/SmartOperatingBlock/dtdl-validator-action/commit/2c4e6979a311d2428548c0984321d034daff19a8))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.58 ([edf94c8](https://github.com/SmartOperatingBlock/dtdl-validator-action/commit/edf94c8bc3ef3761bf10ca9e2cc8c2a4336eba5c))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.60 ([cf6926a](https://github.com/SmartOperatingBlock/dtdl-validator-action/commit/cf6926a8b5a22a6ba4b9b2ad9a44523a6e0cdf04))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.61 ([9b18976](https://github.com/SmartOperatingBlock/dtdl-validator-action/commit/9b189760db6ed16c9c59c78c11f0516adc84f988))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.62 ([da42293](https://github.com/SmartOperatingBlock/dtdl-validator-action/commit/da42293774056f5b911f579785868930c7fdeac0))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.63 ([7eb93af](https://github.com/SmartOperatingBlock/dtdl-validator-action/commit/7eb93af18bc068004331cfa5729e3ddccbc40158))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.64 ([55e3a2b](https://github.com/SmartOperatingBlock/dtdl-validator-action/commit/55e3a2be95d6b80efc64e429434f29b175bc5971))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.65 ([ca55d8e](https://github.com/SmartOperatingBlock/dtdl-validator-action/commit/ca55d8e869dd5c80e588248225f1f02afecfb4cc))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.66 ([9afcea2](https://github.com/SmartOperatingBlock/dtdl-validator-action/commit/9afcea26e469645f4b4fdd4f25ce8dc7da57d2c5))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.67 ([b71d916](https://github.com/SmartOperatingBlock/dtdl-validator-action/commit/b71d9165e030f0052a3898688bcd3710a7a675d2))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.68 ([65408c8](https://github.com/SmartOperatingBlock/dtdl-validator-action/commit/65408c8271a119f6c88a8a8e864c930c02918d82))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.69 ([12f2fd4](https://github.com/SmartOperatingBlock/dtdl-validator-action/commit/12f2fd4d7475764289f2f5c9da1ceb7126eff4b2))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.70 ([9fce75b](https://github.com/SmartOperatingBlock/dtdl-validator-action/commit/9fce75bb58903de678fcd4c5b447b6f9e37a6a86))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.71 ([768de6d](https://github.com/SmartOperatingBlock/dtdl-validator-action/commit/768de6df9f9d372c51252d56bd5cef775bad0a61))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.72 ([2f7f538](https://github.com/SmartOperatingBlock/dtdl-validator-action/commit/2f7f53866d4beceb44e87298c69c93f10ea2e4e6))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.73 ([3ff8378](https://github.com/SmartOperatingBlock/dtdl-validator-action/commit/3ff83789b26b54eee7f2ec71a5330c307e3dd0c3))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.74 ([22caf54](https://github.com/SmartOperatingBlock/dtdl-validator-action/commit/22caf5490ed9edca95d1c66937757f81cfd5590d))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.75 ([54092a0](https://github.com/SmartOperatingBlock/dtdl-validator-action/commit/54092a073f8221601848e5b0d6737833cc7bca4a))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.76 ([bdae0e6](https://github.com/SmartOperatingBlock/dtdl-validator-action/commit/bdae0e6a16530b4bfe7398312f4a35d0971d2162))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.77 ([ac893a2](https://github.com/SmartOperatingBlock/dtdl-validator-action/commit/ac893a2ae0e2e49451bc6f06119327a00c23f3e7))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.78 ([f06eef1](https://github.com/SmartOperatingBlock/dtdl-validator-action/commit/f06eef1703e90abb9115e0361c0e9399d2aac03c))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.79 ([68f57de](https://github.com/SmartOperatingBlock/dtdl-validator-action/commit/68f57de4d71a8d2d99c22acf05cb88c458ba1f4f))
+* **deps:** update node.js to 18.18 ([8e2a567](https://github.com/SmartOperatingBlock/dtdl-validator-action/commit/8e2a567769bd705e45bec19bd2fb954136cdea16))
+* **deps:** update node.js to 20.10 ([ce1e42e](https://github.com/SmartOperatingBlock/dtdl-validator-action/commit/ce1e42e1af39e05b15b9f8bf1e533d66f77b1a60))
+* **deps:** update node.js to 20.9 ([fdd6570](https://github.com/SmartOperatingBlock/dtdl-validator-action/commit/fdd65703844e11d2b5c1a9483b64f0315ebfc654))
+* **deps:** update node.js to v20 ([6bbf9ab](https://github.com/SmartOperatingBlock/dtdl-validator-action/commit/6bbf9ab89d497ea48db336b8d0465e30860f167e))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-node action to v4 ([651bd5d](https://github.com/SmartOperatingBlock/dtdl-validator-action/commit/651bd5df85500c9c031dce53a9d0481302272f4c))
+
 ## [1.1.2](https://github.com/SmartOperatingBlock/dtdl-validator-action/compare/1.1.1...1.1.2) (2023-09-05)
 
 
