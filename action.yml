@@ -24,7 +24,7 @@ runs:
     - name: Setup DotNet
       uses: actions/setup-dotnet@v4
       with:
-        dotnet-version: 3.1.x
+        dotnet-version: 8.0.x
     - name: Get the Microsoft DTDL Validator software
       uses: actions/checkout@v4
       with:
